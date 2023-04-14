@@ -39,8 +39,8 @@ def display_data():
 
     headers = {
         "Accepts": "application/json",
-        # SUA KEY AQUI
-        "X-CMC_Pro_API_Key": "6a720ac7-3bb3-499c-8a4d-9d275f0f638a"
+        # SUA token AQUI
+        "add seu token aqui"
     }
 
     response = requests.get(api_url, headers=headers, params=parameters)
